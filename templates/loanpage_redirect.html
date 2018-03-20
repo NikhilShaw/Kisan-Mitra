@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Loan Application</title>
+	<link rel="stylesheet" type="text/css" href="/static/profilessheet.css">
+	<link href="https://fonts.googleapis.com/css?family=Kurale|Raleway|Lato|Montserrat" rel="stylesheet">
+</head>
+<body style="background-image:url(/static/images/wall6.jpg);">
+	<p id="h"><span id="emit">Kissan Mitra</span><span id="subheading"><i>Seeds to Happiness...</i></span></p>
+	<a href="index.html"><p id="logout">Logout</p></a>
+	<table align="center" cellspacing="50">
+		<tr id="tablehead">
+			<td><a href="profile.html">Your Profile</a></td>
+			<td><a href="prediction.html">Crop Prediction</a></td>
+			<td id="active">Loan Application</td>
+			<td><a href="schemes.html">Schemes</a></td>
+			<td><a href="dronereport.html">Drone Report</a></td>
+			<td><a href="dhanmandi.html">Raj Mandi</a></td> 
+		</tr>
+	</table>
+	<br><br>
+	<center><div style="border: 1px solid black; height: 1%; margin-top: -70px; width: 80%;"></div></center>
+	<br>
+	<p > <h1 style="width: 400px; float: right; margin-right: 200px;">Data Submitted successfully.</h1></p>
+	<form id="bank" method='post'>
+		<table id="formtable" border="1" cellspacing="8" cellpadding="5" width="500">
+			<tr>
+		    <td>Select preffered bank:</td> <td><select name="Bank">
+			<option value="axis">Axis Bank</option>
+			<option value="sbi">State Bank Of India</option>
+			<option value="hdfc">HDFC Bank</option>
+			<option value="icici">ICICI Bank</option>
+			<option value="pnb">Punjab National Bank</option>
+			<option value="canara">Canara Bank</option>
+			<option value="bob">Bank of Baroda</option>
+			<option value="union">Union Bank</option>
+			<option value="idbi">IDBI Bank</option>
+			<option value="boi">Bank of India</option>
+		    </select><br></td>
+	        </tr>
+			<tr>
+				<td>First Name:</td><td><input type="text" name="firstname" placeholder="Enter First Name" required="text"></td>
+			</tr>
+			<tr>
+				<td>Middle Name:</td><td><input type="text" name="middlename" placeholder="Enter Middle name (if any)"></td>
+			</tr>
+			<tr>
+				<td>Last Name:</td><td><input type="text" name="lastname" placeholder="Enter Last Name" required="text"></td>
+		    </tr>
+		    <tr>
+				<td>House No.:</td><td><input type="Address" name="houseno" placeholder="Enter House No."></td>
+			</tr>
+			<tr>
+		    	<td>Locality:</td><td><input type="Address" name="locality" placeholder="Enter Locality"></td>
+		    </tr>
+		    <tr>
+			    <td>Pincode:</td><td><input type="Pincode" name="pincode" placeholder="Enter Pincode"></td>
+			</tr>
+			<tr>
+			    <td>Loan Amount:</td><td><input type="number" name="amount" placeholder="Enter Loan Amount"></td>
+			</tr>
+			<tr>
+			    <td>Loan Period:</td><td><input type="number" name="time" placeholder="Enter loan duration in years"></td>
+			</tr>
+			<td>
+			    <td><input type="submit" name="submit"></td>
+		    </tr>
+		</table>
+	</form>
+
+</body>
+</html>

@@ -1,0 +1,152 @@
+body{
+	/*background-image: url(../images/wall6.jpg);*/
+	width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#h {
+  text-align: center;
+}
+
+#emit
+{
+  color: #f1f2f6; 
+  font-size:5em;
+  font-weight:50;
+  font-family:Montserrat,sans-serif;
+  opacity:0.70;
+  margin:5px;
+  text-align: center;
+}
+#subheading
+{
+  font-weight:50;
+  font-size:2em;
+  opacity: 0.7;
+}
+h2{
+	margin-top: 100px;
+	font-size: 35px;
+}
+
+table {
+	margin-top: -60px;
+}
+
+#tablehead {
+	background-color: #fad390;
+	color: rgba(47, 54, 64,1.0);
+	border-radius: 2px;
+}
+
+#tablehead td {
+	padding: 10px 20px;
+	font-size: 20px;
+	font-family:Montserrat,sans-serif;
+	margin: 30px;
+	border-radius: 5px;
+}
+
+#tablehead td:hover {
+	background-color: #3B9C9C;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+#active {
+	background-color: #3B9C9C;
+}
+#image
+{
+	width: 270px;
+	height: 300px;
+	margin-left: 200px;
+	border: 2px solid black;
+}
+#details{
+	font-size: 20px;
+	font-weight: bold;
+	font-family: lato,sans-serif;
+
+}
+#details li{
+	margin-top: 20px;
+}
+
+#links{
+	font-size: 20px;
+	font-weight: bold;
+	background-color: #ffc048;
+}
+
+#links li{
+	margin-top: 20px;
+}
+#links li a {;
+}
+
+
+#form {
+	margin-left: 250px;
+	margin-top: 120px;
+	font-size: 30px;
+}
+
+#logout
+{
+	float: right;
+	margin-top: -110px;
+	margin-right: 20px;
+	border: 1px solid black;
+	opacity: 0.8;
+	padding: 6px;
+	font-size: 17px;
+}
+#logout:hover {
+	background-color: blue;
+	color: white;
+}
+
+#disc {
+	font-size: 17px;
+	margin-top: -70px;
+	font-weight: 20px;
+	background-color: #ffc048;
+	width: 400px;
+}
+#form2 {
+	float: left;
+	margin-left: 550px;
+	margin-top: -75px;
+	font-size: 30px;
+}
+#bank{
+    margin-left: 150px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+#formtable{
+	margin-top: 10px;
+	border: 3px solid black;
+	padding: 5px;
+	background-color: #dfe4ea;
+}
+#info
+{
+	text-align: left;
+	width: 1000px;
+	margin-left: 200px;
+	font-size: 25px;
+	font-family: Lato,sans-serif;
+}
+#rajlink{
+	font-size: 25px;
+	color: red;
+	margin-left: 600px;
+	background-color: white;
+	border: 2px solid red;
+}

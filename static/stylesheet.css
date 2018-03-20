@@ -1,0 +1,57 @@
+body {
+    height: 30%;
+    /*background-image: url("../images/wall10.jpg");*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 3em;
+}
+
+#h {
+  text-align: center;
+  margin-top: -10px;
+}
+
+#heading
+{ 
+  font-size:5em;
+  font-weight:50;
+  font-family:Montserrat,sans-serif;
+  opacity:0.70;
+  margin:5px;
+  text-align: center;
+}
+#subheading
+{
+  font-weight:50;
+  font-size:2em;
+  opacity: 0.7;
+}
+
+#login {
+  background-color: rgba(255,255,255,0.2);
+  border: 2px solid black;
+  margin-top: 90px;
+  width: 35%;
+  font-size: 20px;
+  padding: 20px;
+  padding-top: 30px;
+  text-align: center;
+  border-radius: 15px;
+  float: left;
+}
+
+#info {
+  /*background-color: rgba(255,255,255,0.3);
+  border: 2px solid black;*/ 
+  opacity: 0.75;
+  float: right;
+  width: 55%;
+  padding: 20px;
+  font-size: 23px;
+  font-weight: bold;
+  margin-top: 50px;
+  font-family:Lato,sans-serif;
+}
+.input{
+  font-size:20px;
+}
