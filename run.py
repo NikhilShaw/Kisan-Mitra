@@ -1,7 +1,9 @@
 from flask import Flask, session, render_template, request, url_for, redirect
 import sckit
+import feats
 import csv
 import pandas as pd
+from datetime import datetime
 app = Flask(__name__)
 app.secret_key = 'A0Zr98j/3yX R~XHH!jmN]LWX/,?RT'
 
@@ -19,7 +21,7 @@ def index():
 def indexafter():
 	username=request.form['id']
 	password=request.form['Password']
-	if password=='   ' and username in ['champa', 'ratan']:
+	if password=='     ' and username in ['champa', 'ratan']:
 		if username=='champa':
 			session['curr_user']='champa'
 			return render_template('profile.html')
@@ -37,7 +39,7 @@ def invalidprofile():
 def invalidprofileafter():
 	username=request.form['id']
 	password=request.form['Password']
-	if password=='   ' and username in ['champa', 'ratan']:
+	if password=='     ' and username in ['champa', 'ratan']:
 		if username=='champa':
 			session['curr_user']='champa'
 			return render_template('profile.html')
@@ -56,7 +58,6 @@ def dhanmandi():
 @app.route('/dronereport.html')
 def dronereport():
 	return render_template('dronereport.html')
-
 
 @app.route('/loanpage.html')
 def loanpage():
@@ -89,7 +90,9 @@ def prediction():
 @app.route('/prediction.html', methods=['POST'])
 def prediction_submit():
 	input_date=request.form['date']
-	params=["clayey loamy", 2, 600, 1100, 27, 35, 6.7, 7.7]
+	dt=datetime.strptime(input_date, '%Y-%m-%d')
+	ma, mi, pre=feats.get_temp_and_pre(dt.month)
+	params=["clayey loamy", 2, pre, mi, ma, 6.7, 7.7]
 	l=sckit.predict_crop(params)
 	l=''.join(l[0])
 	return render_template('redirectp.html', recc_crop=l)

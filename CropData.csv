@@ -1,32 +1,32 @@
-Soil,WHC ,Rain min,Rain max,Temp min,Temp max,pH min,pH max,Crop
-loamy,2,800,1500,20,27,6.5,8,paddy
-clayey loamy,2,1200,2500,22,32,4.3,7.5,rice
-clayey loamy,2,600,800,10,15,5.5,7.5,wheat
-alluvial,1,300,400,27,32,5.5,8,millets
-loamy,1,200,300,20,25,5.5,7,gram
-black,2,500,800,21,30,5.5,6.5,cotton
-alluvial,1,500,150,21,30,5.5,6.5,cotton
-sandy,0,100,150,20,30,6,7.5,oilseeds
-red,0,100,150,20,30,6,7.5,oilseeds
-black,2,100,150,20,30,6,7.5,oilseeds
-yellow,0,100,150,20,30,6,7.5,oilseeds
-sandy,0,300,400,27,35,6,7.5,jawar
-loamy,1,300,400,27,35,6,7.5,jawar
-sandy loamy,1,500,800,18,27,5.5,7.5,maize
-sandy loamy,1,600,1000,25,35,6.2,7.2,moong
-sandy,0,400,600,20,30,6,7,bajra
-red,0,400,600,20,30,6,7,bajra
-yellow,0,400,600,20,30,6,7,bajra
-black,2,400,600,20,30,6,7,bajra
-loamy,1,500,700,10,30,6.5,7,groundnut
-sandy loamy,0,200,250,25,35,6,7.5,barley
-sandy loamy,0,625,1000,10,25,6.5,7.5,mustard
-sandy loamy,1,400,600,25,30,6.5,7.5,pulses
-loamy,1,500,650,25,35,5.5,8,sesame
-loamy,1,450,700,26,32,6,7.5,soyabean
-loamy,1,1000,1750,25,32,5,8.5,sugarcane
-sandy,0,1500,1750,20,30,5,8,spices
-clayey loamy,2,1200,1700,25,35,5.5,7.8,spices
-loamy,1,600,1000,25,35,6.5,7.5,urad
-clayey loamy,2,600,1100,27,35,6.7,7.7,urad
-sandy loamy,0,600,900,25,30,6.5,8,moong
+Soil,WHC ,Precipitation,Temp min,Temp max,pH min,pH max,Crop
+loamy,2,453,20,27,6.5,8,paddy
+clayey loamy,2,659,22,32,4.3,7.5,rice
+clayey loamy,2,200,10,15,5.5,7.5,wheat
+alluvial,1,100,27,32,5.5,8,millets
+loamy,1,78,20,25,5.5,7,gram
+black,2,92,21,30,5.5,6.5,cotton
+alluvial,1,92,21,30,5.5,6.5,cotton
+sandy,0,39,20,30,6,7.5,oilseeds
+red,0,39,20,30,6,7.5,oilseeds
+black,2,39,20,30,6,7.5,oilseeds
+yellow,0,39,20,30,6,7.5,oilseeds
+sandy,0,97,27,35,6,7.5,jawar
+loamy,1,97,27,35,6,7.5,jawar 
+sandy loamy,1,222,18,27,5.5,7.5,maize
+sandy loamy,1,265,25,35,6.2,7.2,moong
+sandy,0,212,20,30,6,7,bajra
+red,0,212,20,30,6,7,bajra
+yellow,0,212,20,30,6,7,bajra
+black,2,212,20,30,6,7,bajra
+loamy,1,179,10,30,6.5,7,groundnut
+sandy loamy,0,92,25,35,6,7.5,barley
+sandy loamy,0,193,10,25,6.5,7.5,mustard
+sandy loamy,1,135,25,30,6.5,7.5,pulses
+loamy,1,153,25,35,5.5,8,sesame
+loamy,1,216,26,32,6,7.5,soyabean
+loamy,1,108,25,32,5,8.5,sugarcane
+sandy,0,70,20,30,5,8,spices
+clayey loamy,2,53,25,35,5.5,7.8,spices
+loamy,1,265,25,35,6.5,7.5,urad
+clayey loamy,2,309,27,35,6.7,7.7,urad
+sandy loamy,0,527,25,30,6.5,8,moong
